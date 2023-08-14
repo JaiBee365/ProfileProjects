@@ -1,5 +1,6 @@
-WordPress Setup Script for Amazon Linux EC2This Bash script automates the setup of WordPress on an Amazon Linux EC2 instance. When executed:
-
+WordPress Setup Script for Amazon Linux EC2 
+This Bash script automates the setup of WordPress on an Amazon Linux EC2 instance. 
+When executed:
     It updates the installed packages using yum.
     Downloads the latest version of WordPress.
     Enables PHP 8.2 and installs necessary packages including Apache, PHP, MariaDB, and phpMyAdmin.
@@ -11,5 +12,3 @@ WordPress Setup Script for Amazon Linux EC2This Bash script automates the setup 
     Lastly, it backs up the Apache configuration file.
 
 Note: Before running, make sure to replace placeholder values like 'YOUR_DB_PASSWORD' and 'YOUR_AUTH_KEY' with actual values.
-
-Feel free to modify or extend this description as needed to fit your project's specifics or any additional details you'd like to convey to the users.
