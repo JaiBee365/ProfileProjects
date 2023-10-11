@@ -1,0 +1,1 @@
+This repository hosts a script aimed at simplifying the deployment of a WordPress environment on an Amazon EC2 instance running Amazon Linux. The script automates various setup steps including downloading and extracting WordPress, configuring the necessary server settings, and setting up a database for WordPress.
