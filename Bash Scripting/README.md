@@ -1,0 +1,1 @@
+This repository houses a variety of projects showcasing different functionalities and setups. The snippet below illustrates a script devised to automate the setup of a WordPress environment on an Amazon EC2 instance running Amazon Linux. The script covers everything from updating the system packages to configuring WordPress with a MariaDB database.
