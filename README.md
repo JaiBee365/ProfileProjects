@@ -1,0 +1,1 @@
+This repository is a collection of diverse projects assembled to demonstrate various technical setups and functionalities. Each project within this collection has a unique focus and serves a different purpose
