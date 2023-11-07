@@ -1,0 +1,344 @@
+def lambda_handler(event, context):
+    html = """
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Joseph Bertrand's Resume</title>
+    <style>
+     
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-weight: bold;
+        }
+
+        a {
+            color: rgb(9, 239, 243);
+            text-decoration: none;
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+
+        h1,
+        h2,
+        h3,
+        p {
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h2,
+        h3 {
+            background-color: #f2f2f2;
+            padding: 5px;
+        }
+
+        body {
+            padding: 20px;
+        }
+
+        .resume {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin: 0 auto;
+            max-width: 800px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+    </style>
+    
+    
+    
+  <style>
+      .menu {
+        display: flex;
+        justify-content: center;
+        background-color: #fff;
+        color: #000;
+        padding: 20px;
+      }
+
+      .menu-items {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .menu-item {
+        margin: 0 10px;
+      }
+
+      .menu-item a {
+        color: #000;
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 10px;
+        transition: all 0.3s ease;
+      }
+
+      .menu-item a:hover {
+        background-color: #09eff4;
+        color: #333;
+      }
+    </style>  
+    <link rel="icon" type="image/png" href="https://s3.amazonaws.com/mycloudawakening.com/Index.html/JPG_Files/116-logo-removebg-preview.png">
+    
+    
+</head>
+<script>
+    document.cookie = "hasVisited=true; expires=Thu, 18 Dec 2021 12:00:00 UTC";
+    if (document.cookie.indexOf("hasVisited=") >= 0) {
+        console.log("Welcome back! We're glad you're here again.");
+    } else {
+        console.log("Welcome! We're glad you're here for the first time.");
+    }  
+</script>
+
+<body>
+    <script src="Tracker.js"></script>
+    <div class="resume">
+        <h1>Joseph Bertrand</h1>
+        <p>Email: josephcbertrand@gmail.com</p>
+        <p>LinkedIn: <a
+                href="https://www.linkedin.com/in/joseph-b-a7984b133">https://www.linkedin.com/in/joseph-b-a7984b133</a> 
+        </p>
+        <p>Location: Louisiana</p>
+        <h2>Qualifications Summary</h2>
+        <p>As a Solutions Architect, I bring a wealth of experience in enhancing cloud efficiencies and maintaining advanced scripting solutions. My expertise spans across AWS where I've improved functionalities and user experiences through strategic infrastructure improvements. My roles have included optimizing cloud architectures for scalability, automating deployments with bespoke Bash scripts, and simplifying application delivery with Docker. Further, my proficiency with Python scripting has streamlined automation processes, and I've successfully integrated CI/CD pipelines to keep cloud services secure and current. With a dedication to continuous learning and growth, I am at the forefront of cloud technology innovation.
+        </p>
+        <h3>IT Support/ Software Development & Debugging</h3>
+        <ul>
+            <li>Possessing a strong aptitude for acquiring in-depth understanding of complex software systems and
+                networks, as well as the ability to effectively troubleshoot and resolve technical issues, monitor
+                system performance, and analyze system reliability</li>
+            <li>Capable of resolving technical issues, monitoring systems performance, and analyzing systems
+                reliability.
+            </li>
+        </ul>
+        <h3>Relationship Building & Networking</h3>
+        <ul>
+            <li>Proficient at strengthening professional relationships with key stakeholders at all levels.</li>
+            <li>Excellent communication skills in technical and non-technical subjects.</li>
+        </ul>
+        <h3>Continuous Project Management</h3>
+        <ul>
+            <li>Well-versed in
+
+                <ul>
+                    <li>Well-versed in managing multiple projects and increasing productivity.</li>
+                    <li>Adept at collaborating with cross-functional teams to enhance project efficiency.</li>
+                </ul>
+                <h3>User Needs Assessment</h3>
+                <ul>
+                    <li>Demonstrated ability to design websites and meet end-user requirements.</li>
+                    <li>Proficient in actively responding to customer queries and resolving complaints.</li>
+                </ul>
+                <h3>Technical Proficiencies</h3>
+                <p> Command Line Tools | AWS EC2 | AWS IAM | AWS S3 | GitHub | Git CLI | AWS Route53 | AWS CloudFront | AWS Auto Scaling | AWS Control Tower | 
+                      AWS Organizations | AWS SQS | AWS SNS | AWS Elastic Beanstalk</p>
+                <p>C-Languages: HTML | CSS | JS | Python | JSON | YAML | SQL |Terraform| Bash |  </p>
+                <h2>Professional Experience</h2>
+
+<h3>Helpful Engineers: REMOTE</h3>
+<p>2023  Present</p>
+<p>Developer</p>
+<ul>
+    <li>Actively contributed to the development of the corporate website at Helpful Engineers, leveraging the capabilities of AWS Amplify.</li>
+    <li>Collaborated closely within a diverse team to ensure all members were aligned on project objectives and development tasks.</li>
+    <li>Utilized AWS Amplify tools to enhance website features and improve user experience.</li>
+    <li>Regularly participated in team meetings, discussing progress, addressing challenges, and brainstorming solutions to meet project deadlines.</li>
+</ul>
+
+<h3>Infascination: Broussard, Louisiana</h3>
+<p>2023  Present</p>
+<p>Solutions Architect</p>
+<ul>
+    <li>Assisted and collaborated in resolving customer and internal cloud architecture issues by delivering solutions that align with both customer expectations and cloud architecture standards universally.</li>
+    <li>Worked on multiple cloud transformation initiatives, optimizing existing architectures for enhanced efficiency and scalability.</li>
+    <li>Proficiently updated and maintained scripting solutions, ensuring seamless troubleshooting and problem resolution for customers facing architecture issues.</li>
+    <li>Developed a Bash script designed to automatically launch a LAMP (Linux, Apache, MySQL, PHP) stack on Amazon Elastic Compute Cloud (EC2) instances during instance launch, streamlining deployment processes.</li>
+    <li>Leveraged Docker to containerize applications, improving portability and simplifying deployment procedures.</li>
+</ul>
+
+          
+                <h3 <h3>Weatherford: Broussard, Louisiana</h3>
+                <p>2018  Present</p>
+                <p>Mechanic</p>
+                <ul>
+                    
+                </ul>
+                <h3>G.I.S. Grand Isle Shipyard: Odessa, Texas </h3>
+                <p>2017</p>
+                <p>Pipefitter Helper</p>
+                <ul>
+                    
+                </ul>
+                <h3>Elite Concrete Pumpers: Broussard, Louisiana</h3>
+                <p>2015 - 2016</p>
+                <p>Operator</p>
+                <ul>
+                    
+                </ul>
+                <h3>Halliburton: New Iberia, Louisiana</h3>
+                <p>2008 - 2015</p>
+                <p>Tool Tech</p>
+                <ul>
+                    
+                </ul>
+                    </script>
+  <h2>Certifications</h2>
+
+<ul class="certificates-list">
+  <li>
+    <a href="https://www.credly.com/badges/68490e64-fabb-40dd-8a59-f278502db84f/public_url" target="_blank">
+      <img src="https://s3.amazonaws.com/mycloudawakening.com/Index.html/JPG_Files/aws-learning-data-protection-disaster-recovery.png" alt="" width="275" height="220">
+    </a>
+  </li>
+  
+  <li>
+    <a href="https://www.credly.com/badges/5a9095f5-4efd-4563-ba8c-efcc5c90e95f/public_url" target="_blank">
+      <img src="https://s3.amazonaws.com/mycloudawakening.com/Index.html/JPG_Files/aws-learning-object-storage.png" alt="" width="275" height="220">
+    </a>
+  </li>
+  <li>
+    <a href="https://www.credly.com/badges/8371d444-893f-46b2-8345-ec236ed44d8a/public_url" target="_blank">
+      <img src="https://s3.amazonaws.com/mycloudawakening.com/Index.html/JPG_Files/aws-learning-serverless.png" alt="" width="275" height="220">
+    </a>
+  </li>
+  </a>
+  <li>
+   <a href="https://www.credly.com/badges/eb8b4121-f0f6-442b-979c-7310c5ce11f5/public_url" target="_blank">
+    <img src="https://s3.amazonaws.com/mycloudawakening.com/Index.html/JPG_Files/aws-learning-block-storage.png" alt="" width="300" height="220">
+  </a>
+  </li>
+  <li>
+    <a href="https://www.credly.com/badges/f4d2dd08-a184-4b3b-b4d7-ea527cf9ef2c/public_url" target="_blank">
+      <img src="https://s3.amazonaws.com/mycloudawakening.com/Index.html/JPG_Files/aws-certified-developer-associate.png" alt="" width="300" height="220">
+    </a>
+  </li>
+  <a href="https://www.credly.com/badges/f90050c6-9476-43d7-bdc3-9a4733a0f6fd/public_url" target="_blank">
+    <img src="https://s3.amazonaws.com/mycloudawakening.com/Index.html/JPG_Files/aws-certified-solutions-architect-associate+(3).png" alt="" width="300" height="220">
+  <li>
+   <a href="https://www.credly.com/badges/f673f5e6-64ee-48e8-861b-f7ed48fbdedd/public_url" target="_blank">
+    <img src="https://s3.amazonaws.com/mycloudawakening.com/Index.html/JPG_Files/aws-certified-cloud-practitioner.png" alt="" width="300" height="220">
+  </a>
+</li>
+<li>
+  <a href="https://www.credly.com/badges/3f57e601-1a0a-41f7-a0f7-cb13c6593fca/public_url" target="_blank">
+    <img src="https://s3.amazonaws.com/mycloudawakening.com/Index.html/JPG_Files/aws-cloud-quest-cloud-practitioner.png" alt="" width="300" height="220">
+  </a>
+  </li>
+
+</ul>
+
+<style>
+.certificates-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.certificates-list li {
+  justify-self: center;
+  align-self: center;
+  margin-bottom: 20px; /* Add margin to bottom of each li element */
+}
+
+.certificates-list img {
+  display: block;
+  margin: 0 auto;
+}
+</style>
+
+
+    <footer>
+  <h2> Navigation Menu</h2>
+  <nav class="menu">
+    <ul class="menu-items">
+      <li class="menu-item"><a href ="https://d1ow95xmhibi7v.cloudfront.net" target="_blank">Return To About Me</a></li>
+      <li class="menu-item"><a href ="" target="_blank">Home Labs/Projects</a></li>
+      <li class="menu-item"><a href ="https://comment-section.s3.amazonaws.com/Comment+Section.html/Comment+Section.html" target="_blank">Comment Section</a></li>
+      <li class="menu-item"><a href ="" target="_blank">Other Achievements</a></li>
+    </ul>
+  </nav>
+</footer>
+
+                
+    <script>    function setCookie(name, value, days) { var expires = ""; if (days) { var date = new Date(); date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000)); expires = "; expires=" + date.toUTCString(); } document.cookie = name + "=" + (value || "") + expires + "; path=/"; }</script>                     </div>                <style>                    .resume {                        text-align: center;                        font-family: Arial, sans-serif;                        color: #333333;                    }                    .resume h2 {                        margin-bottom: 20px;                        font-size: 24px;                        font-weight: bold;                    }                    .visit-number {                        font-size: 18px;                        font-weight: bold;                        color: #f99400;                    }                </style>                <script>    function setCookie(name, value, days) { var expires = ""; if (days) { var date = new Date(); date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000)); expires = "; expires=" + date.toUTCString(); } document.cookie = name + "=" + (value || "") + expires + "; path=/"; } function getCookie(name) { var nameEQ = name + "="; var ca = document.cookie.split(';'); for (var i = 0; i < ca.length; i++) { var c = ca[i]; while (c.charAt(0) == ' ') c = c.substring(1, c.length); if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length); } return null; } if (!getCookie("visitor")) { setCookie("visitor", true, 1); var visits = localStorage.getItem("visits") || 0; visits = parseInt(visits) + 1; localStorage.setItem("visits", visits); } document.getElementById("visit-count").innerHTML = localStorage.getItem("visits");    </script>
+
+
+
+<style>
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        text-align: center;
+        background-color: #f2f2f2;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+
+      p {
+        font-size: 16px;
+        margin-bottom: 20px;
+      }
+
+      input[type="email"] {
+        font-size: 16px;
+        padding: 10px 20px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+
+      button[type="button"] {
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+    </style>
+  </head>
+  <body>
+   
+
+ 
+
+
+
+</Body>
+
+</html>
+</body>
+    </html>
+    """
+    return {
+        'statusCode': 200,
+        'headers': {
+            'Content-Type': 'text/html'
+        },
+        'body': html
+    }
